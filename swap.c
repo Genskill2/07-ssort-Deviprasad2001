@@ -20,7 +20,7 @@
 void ssort(int A[], int n)
 {  
   for(int i=0;i<n;i++)
-  { swap_max(A,n-1,i-1);
+  { swap_max(A,n,i);
   }
 }    
     
