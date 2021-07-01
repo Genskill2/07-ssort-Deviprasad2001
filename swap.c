@@ -5,7 +5,7 @@ void swap_max(int A[], int n, int m)
     {  
         if(A[i+1]>largenum)
           { largenum = A[i+1];
-             post = i+1;
+             pos = i+1;
           }
    
      }  
